@@ -2,13 +2,11 @@
 title: Home
 sections:
   - type: heroblock
-    title: 'Hi, I''m Stackbit Exto Portfolio Theme.'
+    subtitle: An optional subtitle of the section
     section_id: hero
+    title: e-hulaserwis.pl
     component: hero_block.html
-    content: >-
-      This section can contain a subtitle or tagline. The recommended length is
-      one to three sentences, but can be changed as you prefer.
-
+    image: images/electricScooter_8.svg
   - type: servicesblock
     title: What We Do
     section_id: services
