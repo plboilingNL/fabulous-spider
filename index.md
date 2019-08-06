@@ -6,7 +6,7 @@ sections:
     section_id: hero
     subtitle: An optional subtitle of the section
     title: e-hulaserwis.pl
-    type: heroblock
+
   - component: services_block.html
     section_id: services
     serviceslist:

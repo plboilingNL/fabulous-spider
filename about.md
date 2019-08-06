@@ -1,18 +1,20 @@
 ---
-title: About Us
-subtitle: This is a short page about us and our work.
-img_path: images/about.jpg
+title: O nas
+subtitle: Cześć drogi użytkowinku hulajnogi elektrycznej.
+img_path: images/xiaomi-14.jpg
 menus:
   main:
-    title: About
-    weight: 4
+    title: O Nas
+    weight: 2
 layout: page
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vel venenatis augue. Suspendisse tincidunt, nibh eget sodales eleifend, lectus magna elementum lorem, ut bibendum tellus turpis quis risus. Vivamus sagittis enim est, et semper lectus hendrerit ut.
+Witamy na naszej stronie poświęconej wszelkim modyfikacjom oraz serwisowi twojej hulajki.
 
->The world always seems brighter when you’ve just made something that wasn’t there before. - Neil Gaiman
+>Przebita dętka!!?? Wymiana opon??!! Modyfikacje oraz naprawy i serwis bierzący? Doskonale trafiłeś/aś to właśnie w naszej firmie zaopiekujemy sie twoją hulajką.
 
-In sollicitudin imperdiet turpis quis accumsan. Pellentesque euismod turpis et nisi fermentum accumsan. Sed mollis vehicula augue sit amet accumsan. Nunc mollis, risus sed ullamcorper bibendum, odio est molestie tellus, venenatis rutrum mauris nibh at nibh. In a auctor leo, eu pretium ante. Quisque faucibus tincidunt fringilla. Donec tempor accumsan ante, in cursus metus tincidunt at. Proin sit amet ligula sed libero consequat consectetur eu tincidunt nulla. 
+Posiadamy zaplecze serwisowe wyposażone we wszystkie cześci oraz narzędzia do przeprowadzenia napraw oraz modyfikacji.
 
-*Thank You for reading!*
+Nasz serwis powstał z myślą o was użytkownikach. Jeśli macie dwie lewe ręce lub poprostu nie macie odwagi do rozebrania swojej hulajki, spieszymy wam z pomocą.
+
+*Team e-hulaserwis.pl*
