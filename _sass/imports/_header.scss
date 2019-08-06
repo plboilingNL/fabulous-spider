@@ -49,7 +49,7 @@
   }
 
   img {
-    max-height: 40px;
+    max-height: 90px;
   }
 }
 
@@ -78,7 +78,7 @@
   a {
     border: 0;
     color: inherit;
-  
+
     &:hover,
     &:focus {
       color: _palette(accent);
