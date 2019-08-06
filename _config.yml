@@ -1,13 +1,13 @@
 title: e-hulaserwis.pl | Warszawa | Serwis XIAOMI MiJia m365 oraz m365 PRO
 baseurl: /
 permalink: '/:title/'
-color_scheme: light
+color_scheme: dark
 accent_color: pink
 header:
   has_nav: true
   title: Exto
 footer:
-  content: '&copy; Stackbit-Exto. All rights reserved.'
+  content: '&copy; e-hulaserwis.pl. All rights reserved.'
   has_social: true
   links:
     - new_window: true
