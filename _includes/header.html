@@ -2,19 +2,13 @@
   <div class="inner">
     <div class="site-header-inside">
       <div class="site-branding">
-        {% assign logo_img_is_not_empty = site.header.logo_img | is_not_empty %}
-        {% if logo_img_is_not_empty %}
-        <p class="site-logo">
-          <a href="{{ '/' | relative_url }}">
-            <img src="{{ site.header.logo_img | relative_url }}" alt="Logo" />
-          </a>
-        </p><!-- .site-logo -->
-        {% endif %}
-        {% if page.layout == 'home' or page.layout == 'blog' %}
-        <h1 class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a></h1>
-        {% else %}
-        <p class="site-title"><a href='{{ '/' | relative_url }}'>{{ site.header.title }}</a></p>
-        {% endif %}
+
+        <div id="mydiv">
+          <img src="/images/logo_m.svg" class="image_full">
+          <img src="/images/logo_s.svg"  class="image_mobile">
+        </div>
+
+
       </div><!-- .site-branding -->
       {% if site.menus.main and site.header.has_nav %}
       <nav id="main-navigation" class="site-navigation" aria-label="Main Navigation">

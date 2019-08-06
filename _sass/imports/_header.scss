@@ -22,7 +22,30 @@
   -webkit-flex: 0 0 auto;
   flex: 0 0 auto;
 }
+// img logo
+#mydiv {
+  width: 150px;
+  height: auto;
+  margin: -15px;
+}
+.image_full{
+  max-height: 120px;
+   display:block;
+  }
 
+ .image_mobile{
+  display:none;
+ }
+
+@media (max-width: 800px) and (min-width: 320px){
+  .image_full{
+   display:none;
+  }
+
+  .image_mobile{
+   display:block;
+  }
+}
 .site-title {
   color: #fff;
   font-size: 1.22222rem;
@@ -41,17 +64,18 @@
 }
 
 .site-logo {
-  margin: 0;
+  margin: -15px;
 
   a {
     border: 0;
     color: inherit;
   }
 
-  img {
+  img.logo {
     max-height: 90px;
   }
 }
+
 
 .site-navigation {
   margin-left: auto;

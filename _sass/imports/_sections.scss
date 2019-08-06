@@ -17,6 +17,35 @@
     padding-top: 0;
   }
 }
+.block {
+  &.bg-white {
+    background: #fff;
+
+    .post-card-inside,
+    .review-inside,
+    .plan-inside {
+      box-shadow: 0 3px 10px 0 rgba(_palette(primary),.15);
+    }
+  }
+
+  &.bg-accent {
+    background: _palette(accent);
+    background: -webkit-linear-gradient(to right,_palette(accent), _palette(accent-alt));
+    background: linear-gradient(to right,_palette(accent), _palette(accent-alt));
+    color: #fff;
+    margin-bottom: 4em;
+    height: 100%;
+
+
+    .block-title {
+      color: inherit;
+    }
+
+    .underline:after {
+      border-color: currentColor;
+    }
+  }
+}
 
 .block-header {
   margin-bottom: 2.5em;
