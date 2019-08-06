@@ -6,9 +6,13 @@ sections:
     section_id: hero
     subtitle: An optional subtitle of the section
     title: e-hulaserwis.pl
-    type: heroblock
-  - component: services_block.html
+    component: hero_block.html
+    image: images/electricScooter_8.jpg
+  - type: servicesblock
+    title: O Serwisie
     section_id: services
+    component: services_block.html
+    subtitle: Najwyższej jakości części zamienne zapewnią długotrwałe i bezpieczne użytkowanie waszej hulajki.
     serviceslist:
       - content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl

@@ -14,11 +14,12 @@ $palette: (
   meta:          lighten(#272c30, 45%),
   border:        #e8e8e8,
   border-alt:    lighten(#272c30, 7%),
-  accent:        #d8195e,
+  accent:        #bc0e0f,
+  accent-alt:    #aca9aa,
   accent-blue:   #0c8aea,
   accent-green:  #0da5b1,
   accent-violet: #7c43a8,
-  accent-yellow: #ed9700  
+  accent-yellow: #ed9700
 );
 
 @import "imports/functions";
@@ -36,4 +37,17 @@ $palette: (
 @import "imports/sections";
 @import "imports/footer";
 @import "imports/palettes";
+.block.bg-accent {
+  background: #bc0e0f;
+  background: -webkit-linear-gradient(to right, #bc0e0f, #aca9aa);
+  background: linear-gradient(to right, #bc0e0f, #aca9aa);
+  color: #fff;
+margin-bottom: 3em; }
+  .block.bg-accent .block-title {
+    color: inherit; }
+  .block.bg-accent .underline:after {
+    border-color: currentColor; }
+.block.bg-white + .block.bg-white, .block.bg-gray + .block.bg-gray {
+  padding-top: 0;
+}
 @import "imports/banner";
