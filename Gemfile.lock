@@ -67,5 +67,4 @@ DEPENDENCIES
   jekyll-paginate (~> 1.1)
   jekyll-paginate-v2 (~> 1.9)
 
-BUNDLED WITH
-   1.16.6
+

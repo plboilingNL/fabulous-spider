@@ -8,15 +8,7 @@ sections:
     content: >-
       This section can contain a subtitle or tagline. The recommended length is
       one to three sentences, but can be changed as you prefer.
-  - type: portfolioblock
-    title: Recent Work
-    section_id: latest-projects
-    component: portfolio_block.html
-    subtitle: An optional subtitle of the section
-    layout_style: mosaic
-    num_projects_displayed: 6
-    view_all_text: View All
-    view_all_url: portfolio/index.html
+
   - type: servicesblock
     title: What We Do
     section_id: services
@@ -32,7 +24,7 @@ sections:
         content: >-
           Donec lobortis velit sed suscipit lobortis. Ut non quam metus. Nullam
           a maximus mi. Quisque justo nunc, sollicitudin euismod euismod at,
-          tincidunt ut tellus. Vivamus rhoncus mattis varius. 
+          tincidunt ut tellus. Vivamus rhoncus mattis varius.
       - title: Service title
         content: >-
           Vestibulum a nunc ut eros condimentum posuere. Nullam dapibus quis
