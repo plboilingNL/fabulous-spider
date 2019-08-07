@@ -1,10 +1,13 @@
 stackbitVersion: ~0.2.39
 uploadDir: images
 metadata:
-  title: e-hulaserwis.pl
-  description: Serwis hulajnóg elektrycznych XIAOMI MiJia m365 oraz m365 PRO w Warszawie. Posiadamy zaplecze serwisowe wyposażone we wszystkie cześci oraz narzędzia do przeprowadzenia napraw oraz modyfikacji.
-  author: mw
-  authorURL: 'mwlodarski@icloud.com'
+    title: Exto
+  description: A portfolio theme with a blog
+  author: Stackbit
+  authorURL: 'https://www.stackbit.com'
+  images:
+    small: images/demo-256x192.png
+    large: images/demo-1024x768.png
   images:
     small: images/electricScooter_8.svg
     large: images/electricScooter_8.svg
