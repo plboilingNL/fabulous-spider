@@ -1,5 +1,5 @@
 title: e-hulaserwis | Warszawa | Serwis
-baseurl:
+baseurl: '/'
 permalink: '/:title/'
 color_scheme: light
 accent_color: pink
