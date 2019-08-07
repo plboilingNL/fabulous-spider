@@ -18,6 +18,8 @@ sass:
   style: nested
 plugins:
   - jekyll-menus
+  - jekyll-last-modified-at
+  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
