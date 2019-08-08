@@ -6,7 +6,6 @@ sections:
     section_id: hero
     subtitle: An optional subtitle of the section
     title: e-hulaserwis.pl
-
   - component: services_block.html
     section_id: services
     serviceslist:
@@ -30,7 +29,7 @@ sections:
           lorem ipsum, non efficitur urna viverra et.
         title: Service title
     subtitle: An optional subtitle of the section
-    title: What We Do
+    title: O nas
     type: servicesblock
   - component: testimonials_block.html
     section_id: testimonials
@@ -56,7 +55,7 @@ sections:
     num_posts_displayed: 2
     section_id: latest-posts
     subtitle: An optional subtitle of the section
-    title: Latest from the Blog
+    title: Aktualności
     type: postsblock
   - component: contact_block.html
     section_id: contact
