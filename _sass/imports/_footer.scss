@@ -54,7 +54,15 @@
     font-size: 18px;
   }
 }
+ul.adres {
+  list-style: none;
+  font-size: 16px;
 
+   a {
+      border-bottom: 0px;
+
+  }
+}
 @media only screen and (min-width: 601px) {
   .site-footer-inside {
     display: -ms-flexbox;
@@ -73,4 +81,12 @@
       margin-right: 0;
     }
   }
+}
+.site-info {
+  border-top: 1px solid _palette(primary);
+  font-size: 14px;
+  line-height: 1.5;
+  padding-bottom: 1.66667rem;
+  padding-top: 1.66667rem;
+  text-align: center;
 }
