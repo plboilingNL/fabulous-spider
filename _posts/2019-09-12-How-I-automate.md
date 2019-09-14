@@ -4,7 +4,7 @@ title: How I Automate Social Media Sharing of my Jekyll Blog Articles
 description: "These are the 3 reasons I switched away from WordPress and to using Jekyll a static website builder."
 modified: 2019-09-12
 subtitle:   "Deriving neuralnet gradient is an absolutely great exercise to understand backpropagation and computational graph better. In this post we will walk through the process of deriving LSTM net gradient so that we can use it in backpropagation."
-date:       2016-09-12 14:57
+date:       2016-09-13 14:57
 author:     "Jacek Włodarski"
 header-img: "images/ehulaserwis_m-24.jpg"
 category:   techblog
