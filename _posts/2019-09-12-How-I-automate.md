@@ -9,7 +9,7 @@ author:     "Jacek Włodarski"
 header-img: "images/ehulaserwis_m-24.jpg"
 category:   techblog
 tags:       [machine learning, programming, python, neural networks, rnn, lstm]
-image: images/ehulaserwis_m-24.jpg
+image: ehulaserwis_m-24.jpg
 thumb_img_path: images/ehulaserwis_m-24.jpg
 content_img_path: images/ehulaserwis_m-24.jpg
 excerpt: >-
