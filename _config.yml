@@ -36,7 +36,8 @@ exclude:
   - stackbit-build.sh
   - stackbit-pull.js
 defaults:
-  - scope:
+  -
+    scope:
       path: ""
     values:
       image: /images/logo_dark.png
