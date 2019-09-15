@@ -19,6 +19,11 @@
 
         {% feed_meta %}
         {% seo %}
+
+        {% if page.image %}
+        <meta content="{{ site.full_url }}/assets/images/{{ page.image }}" property="og:image">
+
+        {% endif %}
     </head>
     <body>
 
