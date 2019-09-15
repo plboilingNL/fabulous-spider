@@ -36,10 +36,9 @@ exclude:
   - stackbit-build.sh
   - stackbit-pull.js
 defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
+  - scope:
+      path: ""
     values:
-      is_post: true
+      image: /images/logo_dark.png
+      author: Jacek Włodarski
 
