@@ -39,7 +39,9 @@ defaults:
   -
     scope:
       path: ""
+      type: "posts"
     values:
+      is_post: true
       image: /images/logo_dark.png
       author: Jacek Włodarski
-full_url: https://e-hulaserwis.pl
+
