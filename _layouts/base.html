@@ -17,26 +17,19 @@
         <meta property="og:locale" content="pl_PL">
         <meta content="{{ page.url | absolute_url }}" property="og:url">
 
-        {% feed_meta %}
-        {% seo %}
+
         {% if page.is_post %}
   {% assign type = "article" %}
 {% else %}
   {% assign type = "website" %}
 {% endif %}
-  <!-- http://ogp.me/ -->
-  <meta property="og:type" content="{{ type }}" />
-  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}" />
-  {% if page.image %}
-  <meta content="{{ site.full_url }}{{ site.baseurl }}/assets/images/{{ page.image }}" property="og:image">
-  <meta property="og:image:width" content="{{ page.image.width }}" />
-  <meta property="og:image:height" content="{{ page.image.height }}" />
-  {% endif %}
-  {% if page.is_post %}
-  <meta property="og:site_name" content="{{ site.title }}" />
-  {% endif %}
+{% if page.header-img %}
+    <meta property="og:image" content="{{ site.url }}/{{ page.image.path }}" />
+{% endif %}
+
+<meta property="og:description" content="{{ page.subtitle }}" />
+  {% feed_meta %}
+  {% seo %}
     </head>
     <body>
 
