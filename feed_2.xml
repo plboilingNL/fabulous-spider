@@ -6,6 +6,11 @@ layout: none
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ site.name | xml_escape }}</title>
+      <image>
+    <url>{{ post.image }}</url>
+    <title>W3Schools.com</title>
+    <link>https://www.w3schools.com</link>
+  </image>
     <description><![CDATA[
     <img src="{{ post.image }}" alt="{{ post.title }}">
     <hr />
