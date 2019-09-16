@@ -46,5 +46,5 @@ defaults:
       image: /images/logo_dark.png
       author: Jacek Włodarski
 feed:
-  path: feed.xml
+  path: feed_2.xml
 

@@ -1,75 +1,25 @@
 ---
-layout: null
+layout: none
 ---
-
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"
-xmlns:content="http://purl.org/rss/1.0/modules/content/" >
-<atom:link href="{{ site.url }}/feed_2.xml" rel="self" type="application/rss+xml" />
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ post.image }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed_2.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-
-    <id>{{ site.url }}</id>
-    <author>
-      <name>{{ site.author }}</name>
-    </author>
+    <title>{{ site.name | xml_escape }}</title>
+    <description><![CDATA[
+    <img src="{{ post.image }}}" alt="{title}">
+    <hr />
+    <link>{{ site.url }}</link>
+    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <author>{{ site.author }}</author>
-        {% if post.summaryfeed and post.excerpt %}
-          <description>{{ post.excerpt | xml_escape }}</description>
-        {% else %}
-          <description>{{ post.content | xml_escape }}</description>
-        {% endif %}
-        <content:encoded>
-            <![CDATA[
-                <!doctype html>
-                <html lang="en" prefix="op: http://media.facebook.com/op#">
-              <head>
-                <meta charset="utf-8">
-                <link rel="canonical" href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
-                <meta property="op:markup_version" content="v1.0">
-              </head>
-              <body>
-                <article>
-                  <header>
-                      <h1>{{ post.title | xml_escape }}</h1>
-                      {% if post.image %}
-                      <figure>
-                          <img src="{{ post.image }}" alt=" {{ post.title }} ">
-                          <figcaption>{{ post.title }}</figcaption>
-                      </figure>
-                      {% else %}
-                      <figure>
-                          <img src="{{ site.baseurl | prepend: site.url }}/images/logo_dark.png" alt=" {{ post.title }} ">
-                          <figcaption>{{ post.title }}</figcaption>
-                      </figure>
-                      {% endif %}
-
-                  </header>
-                  {% if post.instantfeedback %}
-                    {{ post.content | replace: '<figure>', '<figure data-feedback="fb:likes">' }}
-                  {% else %}
-                    {{ post.content }}
-                  {% endif %}
-                    <footer>
-                        <aside>Jacek Włodarski</aside>
-                        <small>Copyright - Jacek Włodarski</small>
-                  </footer>
-                </article>
-              </body>
-            </html>
-        ]]>
-        </content:encoded>
-
+        <link>{{ site.url }}/{{ post.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}/{{ post.url }}</guid>
       </item>
     {% endfor %}
+]]></description>
+
   </channel>
 </rss>
