@@ -8,7 +8,7 @@ xmlns:content="http://purl.org/rss/1.0/modules/content/" >
 <atom:link href="{{ site.url }}/feed_2.xml" rel="self" type="application/rss+xml" />
   <channel>
     <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
+    <description>{{ post.image }}</description>
     <link>{{ site.url }}{{ site.baseurl }}/</link>
     <atom:link href="{{ "/feed_2.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
 
