@@ -23,10 +23,6 @@
       {% else %}
         {{ site.description }}
       {% endif %}">
-        {% if page.image %}
-    <meta property="og:image" content="{{page.image}}" />
-    <meta name="twitter:image" content="{{page.image}}" />
-  {% endif %}
   <meta property="og:title"
     content="{% if page.title %}
       {{ page.title | strip_html | strip_newlines | truncate: 160 }}
