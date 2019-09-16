@@ -12,4 +12,5 @@ group :jekyll_plugins do
     gem "jekyll-feed", "~> 0.12.1"
     gem 'jekyll-seo-tag'
     gem 'jekyll-postfiles'
+    gem 'jekyll-figure'
 end

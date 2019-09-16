@@ -21,6 +21,7 @@ plugins:
   - jekyll-last-modified-at
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-figure
 exclude:
   - Gemfile
   - Gemfile.lock
