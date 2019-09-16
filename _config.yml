@@ -39,8 +39,8 @@ exclude:
 defaults:
   -
     scope:
-      path: ""
-      type: "posts"
+      path: ''
+      type: posts
     values:
       is_post: true
       image: /images/logo_dark.png
