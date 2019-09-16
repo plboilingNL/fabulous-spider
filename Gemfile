@@ -11,4 +11,5 @@ group :jekyll_plugins do
     gem "jekyll-last-modified-at", "~> 1.1.0"
     gem "jekyll-feed", "~> 0.12.1"
     gem 'jekyll-seo-tag'
+    gem 'jekyll-postfiles'
 end
