@@ -1,7 +1,6 @@
 <!doctype html>
-<html prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#">
+<html lang="pl-PL" prefix="og: http://ogp.me/ns#" >
     <head>
-
         <title>{% assign title_is_not_empty = page.title | is_not_empty %}{% if title_is_not_empty %}{{ page.title }} - {% endif %}{{ site.title }}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,25 +15,7 @@
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
         <meta property="og:locale" content="pl_PL">
-        <!-- <meta content="{{ page.url | absolute_url }}" property="og:url"> -->
-        {% if page.is_post %}
-          {% assign type = "article" %}
-        {% else %}
-          {% assign type = "website" %}
-        {% endif %}
-          <!-- http://ogp.me/ -->
-          <meta property="og:type" content="{{ type }}" />
-          <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-          <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-          <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 140 }}{% else %}{{ site.description }}{% endif %}" />
-          {% if page.image %}
-          <meta property="og:image" content="{{ page.url | prepend: site.baseurl | prepend: site.url }}{{ page.image.path }}" />
-          <meta property="og:image:width" content="{{ page.image.width }}" />
-          <meta property="og:image:height" content="{{ page.image.height }}" />
-          {% endif %}
-          {% if page.is_post %}
-          <meta property="og:site_name" content="{{ site.title }}" />
-          {% endif %}
+          {% seo %}
           {% feed_meta %}
 
     </head>
