@@ -7,15 +7,15 @@ layout: none
   <channel>
     <title>{{ site.name | xml_escape }}</title>
       <image>
-    <url>{{ post.image }}</url>
+    <url>{{ post.image | xml_escape }}</url>
     <title>W3Schools.com</title>
     <link>https://www.w3schools.com</link>
   </image>
     <description><![CDATA[
-    <img src="{{ post.image }}" alt="{{ post.title }}">
+    <img src="{{ post.image | xml_escape }}" alt="{{ post.title }}">
     <hr />
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />]]></description>
+    <link>{{ site.url | xml_escape }}</link>
+    <atom:link href="{{ site.url  | xml_escape }}/feed.xml" rel="self" type="application/rss+xml" />]]></description>
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
