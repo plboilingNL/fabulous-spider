@@ -46,4 +46,6 @@ defaults:
       image: /images/logo_dark.png
 author: Jacek Włodarski
 lang: pl
+feed:
+  path: atom.xml
 
