@@ -44,7 +44,6 @@ defaults:
     values:
       is_post: true
       image: /images/logo_dark.png
-      author: Jacek Włodarski
-feed:
-  path: feed_2.xml
+author: Jacek Włodarski
+lang: pl
 
