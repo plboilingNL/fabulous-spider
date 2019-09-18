@@ -1,6 +1,11 @@
 title: e-hulaserwis | Warszawa | Serwis
 baseurl: ''
+name: e-hulaserwis | Warszawa | Serwis
+description: Serwis i modyfikacje Xiaomi M365
 url: https://e-hulaserwis.pl
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
 permalink: '/:title/'
 color_scheme: light
 accent_color: pink
@@ -20,7 +25,7 @@ sass:
 plugins:
   - jekyll-menus
   - jekyll-last-modified-at
-  - jekyll-feed
+  - jekyll-json-feed
   - jekyll-seo-tag
   - jekyll-figure
 exclude:

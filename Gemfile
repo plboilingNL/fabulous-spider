@@ -9,7 +9,7 @@ group :jekyll_plugins do
     gem "jekyll-paginate-v2", "~> 1.9"
     gem "jekyll-paginate", "~> 1.1"
     gem "jekyll-last-modified-at", "~> 1.1.0"
-    gem "jekyll-feed", "~> 0.12.1"
+    gem 'jekyll-json-feed'
     gem 'jekyll-seo-tag'
     gem 'jekyll-postfiles'
     gem 'jekyll-figure'
