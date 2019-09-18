@@ -1,5 +1,6 @@
 title: e-hulaserwis | Warszawa | Serwis
 baseurl: ''
+url: https://e-hulaserwis.pl
 permalink: '/:title/'
 color_scheme: light
 accent_color: pink
@@ -44,8 +45,8 @@ defaults:
     values:
       is_post: true
       image: /images/logo_dark.png
-author: Jacek Włodarski
+author:
+  name: Jacek
 lang: pl
-feed:
-  path: atom.xml
+
 
