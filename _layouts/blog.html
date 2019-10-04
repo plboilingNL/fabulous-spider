@@ -1,5 +1,6 @@
 ---
 layout: body
+lang: pl
 ---
 
 <div class="outer">
@@ -12,8 +13,7 @@ layout: body
         <header class="post-header inner-small">
           <h2 class="post-title line-top"><a href="{{ post.url | relative_url }}" rel="bookmark">{{ post.title }}</a></h2>
           <div class="post-meta">
-            <time class="published"
-              datetime="{{ post.date | date: '%Y-%m-%d %H:%M' }}">{{ post.date | date: '%B %d, %Y' }}</time>
+            {% include date.html date=post.date %}
           </div>
           {% assign subtitle_is_not_empty = post.subtitle | is_not_empty %}
           {% if subtitle_is_not_empty %}

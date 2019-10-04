@@ -14,10 +14,6 @@ header:
 footer:
   content: '&copy; e-hulaserwis.pl. All rights reserved.'
   has_social: true
-  links:
-    - new_window: true
-      text: Made with Stackbit by mw
-      url: 'mwlodarski@icloud.com'
 sass:
   indentWidth: 4
   precision: 10
@@ -50,8 +46,10 @@ defaults:
     values:
       is_post: true
       image: /images/logo_dark.png
+      lang: pl
 author:
   name: Jacek
-lang: pl
+default_locale: "pl"
+lang: "pl"
 
 

@@ -5,5 +5,6 @@ menus:
     title: Blog
     weight: 3
 layout: blog
+lang: pl
 ---
 

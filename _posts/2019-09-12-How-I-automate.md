@@ -12,6 +12,7 @@ tags:       [machine learning, programming, python, neural networks, rnn, lstm]
 image: ehulaserwis_m-24.jpg
 thumb_img_path: images/ehulaserwis_m-24.jpg
 content_img_path: images/ehulaserwis_m-24.jpg
+lang: pl
 excerpt: >-
   These are the 3 reasons I switched away from WordPress and to using
 sharing:

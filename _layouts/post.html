@@ -10,8 +10,7 @@ layout: body
         <header class="post-header inner-small">
           <h1 class="post-title line-top">{{ page.title }}</h1>
           <div class="post-meta">
-            <time class="published"
-              datetime="{{ page.date | date: '%Y-%m-%d %H:%M' }}">{{ page.date | date: '%B %d, %Y' }}</time>
+            {% include date.html date=page.date %}
           </div><!-- .post-meta -->
           {% capture tags %}
             {% for tag in site.tags %}

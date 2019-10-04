@@ -6,5 +6,6 @@ thumb_img_path: /images/2.jpg
 content_img_path: /images/1.jpg
 excerpt: Test feed.xml donderdag
 layout: post
+lang: pl
 ---
 
